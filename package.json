@@ -1,0 +1,23 @@
+{
+  "name": "miria-camille",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miriamelo/miria-camille.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miriamelo/miria-camille/issues"
+  },
+  "homepage": "https://github.com/Miriamelo/miria-camille#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
