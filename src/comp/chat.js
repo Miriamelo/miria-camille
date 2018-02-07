@@ -33,7 +33,7 @@ class App extends Component {
         this.setState({
             mode:1
         })
-        this.socket = mySocket("https://chatsocketscamiria.herokuapp.com/");
+        this.socket = mySocket("https://chatsocketscamiria.herokuapp.com");
         this.socket.emit("uname", this.state.myname);
         this.socket.on("names", (data)=>{
             this.setState({
