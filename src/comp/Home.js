@@ -11,6 +11,7 @@ class Home extends Component {
        this.changeCamille = this.changeCamille.bind(this);
        this.changeMiria = this.changeMiria.bind(this);
         this.chatting = this.chatting.bind(this);
+        this.changeStickers = this.changeStickers.bind(this);
     }
     
     changeCamille=()=>{
@@ -23,6 +24,10 @@ class Home extends Component {
     
     chatting(){
         this.props.changePage(3);
+    }
+
+    changeStickers(){
+        this.props.changePage(4);
     }
     
     /*
@@ -42,6 +47,7 @@ class Home extends Component {
         <img src={goMiria} className="goMiria" alt="go" onClick={this.changeMiria}/>
         <div className="nav">
         <button id="chat" className="btn btn-2" onClick={this.chatting}>Start Chatting!</button>
+        <button id="stickers" onClick={this.changeStickers}>Stickers!</button>
         </div>
         </div>
       </div>
