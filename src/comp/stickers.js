@@ -16,7 +16,7 @@ class Stickers extends Component {
     }
     
     componentDidMount(){
-        this.socket = mySocket("http://localhost:10000");
+        this.socket = mySocket("https://stickersockets.herokuapp.com");
         
         this.socket.on("userjoined", (data)=>{
            this.setState({
