@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../App.css';
 import mySocket from "socket.io-client";
-import Rooms from "./comp/Rooms";
+import Rooms from "../comp/Rooms";
 
 class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            myImg:require("./imgs/1.png"),
-            myImg2:require("./imgs/2.png"),
+            myImg:require("../assets/1.png"),
+            myImg2:require("../assets/2.png"),
             allusers:[],
             myId:null,
             showDisplay:false,
