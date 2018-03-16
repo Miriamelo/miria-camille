@@ -7,34 +7,33 @@ import AboutC from './comp/aboutC.js';
 import AboutM from './comp/aboutM.js';
 import Chat from './comp/chat.js';
 import Stickers from './comp/stickers.js';
-import Chess from './comp/chess.js';
-// import mySocket from 'socket.io';
+//import mySocket from 'socket.io-client';
 
 class App extends Component {
     constructor(props){
         super(props);
-
+        
         this.state = {
             page:0
         }
-
+        
         this.changePage = this.changePage.bind(this);
-
+        
     }
-
+    
     changePage(num){
         console.log("see");
-
+        
         this.setState({
             page:num
         });
     }
-
-
-
+    
+     
+    
   render() {
       var page = null;
-
+      
       if(this.state.page === 0){
           page = (
               <Home changePage = {this.changePage}/>
@@ -54,10 +53,6 @@ class App extends Component {
       } else if (this.state.page === 4){
           page = (
               <Stickers changePage = {this.changePage} />
-          )
-      }  else if (this.state.page === 5){
-          page = (
-              <Chess changePage = {this.changePage} />
           )
       }
     return (
