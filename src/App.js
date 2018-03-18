@@ -7,7 +7,7 @@ import AboutC from './comp/aboutC.js';
 import AboutM from './comp/aboutM.js';
 import Chat from './comp/chat.js';
 import Stickers from './comp/stickers.js';
-import Chess from './comp/chess.js';
+//import Chess from './comp/chess.js';
 // import mySocket from 'socket.io';
 
 class App extends Component {
