@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../default.css';
+import 'default.css';
 import Chess from '../assets/models/Chess';
 import Queen from '../assets/models/pieces/Queen';
 import ChessBoard from '../assets/components/ChessBoard/ChessBoard';
