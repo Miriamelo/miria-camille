@@ -9,7 +9,7 @@ import socketIOClient from "socket.io-client";
 
 class App extends Component {
   game = new Chess();
-  api = process.env.NODE_ENV === 'production' ? '/' : 'https://chesssockets.herokuapp.com/';
+  api = process.env.NODE_ENV === 'production' ? '/' : 'https://chesssockets2.herokuapp.com/';
 
   state = {
     chess: this.game,
