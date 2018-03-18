@@ -66,7 +66,6 @@ class App extends Component {
               <Trivia changePage = {this.changePage} />
           )
       }
-      }  
 //      else if (this.state.page === 5){
 //          page = (
 //              <Chess changePage = {this.changePage} />
