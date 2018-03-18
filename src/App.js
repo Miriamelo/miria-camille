@@ -55,11 +55,12 @@ class App extends Component {
           page = (
               <Stickers changePage = {this.changePage} />
           )
-      }  else if (this.state.page === 5){
-          page = (
-              <Chess changePage = {this.changePage} />
-          )
-      }
+      }  
+//      else if (this.state.page === 5){
+//          page = (
+//              <Chess changePage = {this.changePage} />
+//          )
+//      }
     return (
       <div className="App">
         {page}
