@@ -16,7 +16,7 @@ class Trivia extends Component {
     }
     
     componentDidMount(){
-        this.socket = mySocket("http://localhost:10000");
+        this.socket = mySocket("https://triviasockets.herokuapp.com");
         
         this.socket.on("newq", (data)=>{
             this.setState({
