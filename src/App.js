@@ -9,6 +9,7 @@ import Chat from './comp/chat.js';
 import Stickers from './comp/stickers.js';
 import Chess from './comp/chess.js';
 import Trivia from './comp/trivia.js';
+//import Chess from './comp/chess.js';
 // import mySocket from 'socket.io';
 
 class App extends Component {
@@ -65,6 +66,12 @@ class App extends Component {
               <Trivia changePage = {this.changePage} />
           )
       }
+      }  
+//      else if (this.state.page === 5){
+//          page = (
+//              <Chess changePage = {this.changePage} />
+//          )
+//      }
     return (
       <div className="App">
         {page}
