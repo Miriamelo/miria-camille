@@ -1,3 +1,18 @@
+@font-face {
+    font-family: GothamBlack;
+    src: url(./assets/gotham/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(./assets/gotham/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(./assets/gotham/Gotham-Light.otf);
+}
+
 .App {
   text-align: center;
 }
@@ -125,10 +140,6 @@
   to { transform: rotate(360deg); }
 }
 
-@font-face {
-    font-family: Gotham;
-    src: url(./assets/gotham/Gotham-Light.otf);
-}
 
 /*stickers*/
 #display {
@@ -157,3 +168,66 @@
 .allImgs {
     position:absolute;
 }
+
+/*TRIVIA*/
+
+.triviaHeading2{
+    width: 10%;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+
+/*player view*/
+
+.playerQ{
+    justify-content: center;
+  align-items: center;
+  align-content: center;
+   min-height: 100vh;
+  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%); 
+}
+
+.btn-4{
+    font-family: GothamLight;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.options{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto; 
+}
+
+.question{
+    font-family: GothamLight;
+    color: white;
+}
+
+
+/*host view*/
+.hostQ{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+   min-height: 100vh;
+  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%); 
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto; 
+}
+
+

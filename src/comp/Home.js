@@ -8,10 +8,12 @@ class Home extends Component {
     constructor(props){
         super(props);
         
-       this.changeCamille = this.changeCamille.bind(this);
-       this.changeMiria = this.changeMiria.bind(this);
+        this.changeCamille = this.changeCamille.bind(this);
+        this.changeMiria = this.changeMiria.bind(this);
         this.chatting = this.chatting.bind(this);
         this.changeStickers = this.changeStickers.bind(this);
+        this.changeChess = this.changeChess.bind(this);
+        this.changeTrivia = this.changeTrivia.bind(this);
     }
     
     changeCamille=()=>{
@@ -28,6 +30,14 @@ class Home extends Component {
 
     changeStickers(){
         this.props.changePage(4);
+    }
+
+    changeChess=()=>{
+        this.props.changePage(5);
+    }
+    
+    changeTrivia=()=>{
+        this.props.changePage(6);
     }
     
     /*
@@ -48,6 +58,7 @@ class Home extends Component {
         <div className="nav">
         <button id="chat" className="btn btn-2" onClick={this.chatting}>Start Chatting!</button>
         <button id="stickers" onClick={this.changeStickers}>Stickers!</button>
+        <button id="test" onClick={this.changeTrivia}>Trivia game!</button>
         </div>
         </div>
       </div>
