@@ -278,7 +278,7 @@
   align-items: center;
   align-content: center;
    min-height: 100vh;
-  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%); 
+ background-image: url("assets/bg.jpg");
 }
 
 .submit{
