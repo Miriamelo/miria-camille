@@ -37,6 +37,12 @@ class AboutC extends Component {
         Created and designed both website and the mobile app to help increase the productivity of Enactus team members <br />
         Created wireframes, mockups, and prototypes which were used to conduct usability testing to improve the website and the app 
         </p>
+        <p class="content">
+        WEB AND GRAPHIC DESIGNER <br />
+        BASI |  JANUARY 2017 - PRESENT <br />
+        Developed a website using a Wordpress theme and customized the theme using HTML, CSS, and basic PHP, which increased sales and resulted in a more user friendly website <br />
+        Created posters regarding special sales and events and updated social media, which led to an increase in social media interaction and following 
+        </p>
           
       </div>
     );

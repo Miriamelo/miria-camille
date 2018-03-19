@@ -15,7 +15,6 @@
 
 
 .App{
-    /*text-align: center;*/
     margin-top: -5%;
 }
 
@@ -31,7 +30,7 @@
 .camProfile {
     height: 100%;
     width: 100%;
-    margin-top: -15%;
+    margin-top: -5%;
 }
 
 .arrow {
@@ -48,12 +47,13 @@
     margin-top: 22%;
 }
 
+/*
 h2{
     font-family: GothamBold;
-}
+}*/
 
 .header{
-    font-family: GothamBold;
+    font-family: GothamLight;
 }
 
 .content{
