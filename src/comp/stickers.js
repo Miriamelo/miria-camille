@@ -21,6 +21,11 @@ class App extends Component {
         
         this.handleImage = this.handleImage.bind(this);
         this.handleDisplay = this.handleDisplay.bind(this);
+        this.goHome = this.goHome.bind(this);
+    }
+    
+    goHome=()=>{
+        this.props.changePage(0);
     }
     
     componentDidMount(){
@@ -142,7 +147,7 @@ class App extends Component {
             comp = (
                 <div>
                     <div ref="thedisplay" id="display">
-                        <img src={goBack} class="goBack" />
+                        <img src={goBack} class="goBack" onClick={this.goHome} />
                         {allimgs}
                         {allstickers}
                     </div>
