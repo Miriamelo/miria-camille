@@ -76,8 +76,8 @@ class Trivia extends Component {
         if(this.state.screen === 0){
             comp = (
                 <div class="container">
-                    <div>
                     <img src={goBack} class="goBack" onClick={this.goHome} />
+                    <div>
                     <img class="triviaHeading" src={trivia} />
                     <br /><br /><br /> 
                     <button class="btn btn-2" onClick={this.handleRoom.bind(this, "room1")}>Room 1</button>
