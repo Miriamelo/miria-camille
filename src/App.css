@@ -250,12 +250,12 @@
   align-items: center;
   align-content: center;
    min-height: 100vh;
-  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%); 
+  background-image: url("assets/bg.jpg"); 
 }
 
 .btn-4{
     font-family: GothamLight;
-    background-image: url("assets/bg.jpg");
+    background-image: linear-gradient(to right, #ff00d9 0%, #00b893 100%);
 }
 
 .options{
@@ -291,8 +291,7 @@
 
 /*GO BACK BUTTON*/
 .goBack{
-    width: 50%;
+    width: 10%;
     margin-left: 50%;
-    position: absolute;
 }
 
