@@ -47,6 +47,7 @@ class AboutC extends Component {
         
             Created wireframes, mockups, and prototypes which were used to conduct usability testing to improve the website and the app 
         </p>
+        <br />
         <p className="content">
             <p className="contentTitle">BASI Tropical Towels</p>
             Web and Graphic Designer <br />
@@ -65,6 +66,7 @@ class AboutC extends Component {
             Digital Design and Development, Diploma <br />
             September 2016 - Present
         </p>
+        <br />
         <p className="content">
             <p className="contentTitle">Langara College</p>
             General Arts, Associates Degree <br />
