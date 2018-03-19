@@ -7,8 +7,11 @@ class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            myImg:require("../assets/1.png"),
-            myImg2:require("../assets/2.png"),
+            myImg:require("../assets/octoSticker.png"),
+            myImg2:require("../assets/fishSticker.png"),
+            myImg3:require("../assets/shellSticker.png"),
+            myImg2:require("../assets/shell2Sticker.png"),
+            myImg2:require("../assets/reefSticker.png"),
             allusers:[],
             myId:null,
             showDisplay:false,
