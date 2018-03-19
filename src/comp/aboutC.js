@@ -50,9 +50,9 @@ class AboutC extends Component {
         Created posters regarding special sales and events and updated social media, which led to an increase in social media interaction and following 
         </p>
         
-        <h2>Education</h2>
+        <h2 className="header">Education</h2>
         
-        <p className="content">
+        <p className="content"> </p>
           
       </div>
     );
