@@ -64,7 +64,7 @@ class App extends Component {
     
     sendMsg(){
         var msg = this.state.myname+": "+this.state.mymsg;
-        this.socket.emit("sendmsg", msg)&& window.scrollTo(0,0);;
+        this.socket.emit("sendmsg", msg);
     }
     
     goHome=()=>{
@@ -92,6 +92,13 @@ class App extends Component {
             })
             
             comp = (
+                
+                <div className="peopleonline">
+                <h2>People who are online</h2>
+                <hr/>
+                    {allnames}
+                </div>
+                
                 <div className="chatbox" id="chatBox">
                     <div id="chatDisplay">{allmsgs}</div>
                     <div id="sendmessageblock">
@@ -123,12 +130,6 @@ class App extends Component {
             
             <div className="chat">
             {comp}
-            </div>
-            
-            <div className="peopleonline">
-                <h2>People who are online</h2>
-            <hr/>
-                {allnames}
             </div>
             
         </div>
