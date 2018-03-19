@@ -207,7 +207,7 @@
     position:fixed;
     left:0;
     top:0;
-    background-color:#FADD;
+    background-image: url("assets/bg.jpg");
     cursor:none;
 }
 
