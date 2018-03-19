@@ -102,9 +102,7 @@ class Trivia extends Component {
                 comp=(
                     <div>
                         <div class="hostQ">
-                        
                         <img class="triviaHeading2" src={trivia} />
-                        <img src={goBack} class="goBack" onClick={this.goHome} />
                         <br />
                         <div class="container-2">
                         <input class="inputField" ref="q" type="text" placeholder="Ask a question" />
