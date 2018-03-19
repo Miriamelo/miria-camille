@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import mySocket from "socket.io-client";
 import Rooms from "../comp/Rooms";
+import goBack from '../assets/goBack.jpeg';
 
 class App extends Component {
     constructor(props){
@@ -143,6 +144,7 @@ class App extends Component {
                     <div ref="thedisplay" id="display">
                         {allimgs}
                         {allstickers}
+                    <img src={goBack} class="goBack" />
                     </div>
                     <div id="controls">
                         {this.state.myId}
