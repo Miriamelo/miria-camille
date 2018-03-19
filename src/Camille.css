@@ -16,7 +16,6 @@
 
 .App{
     margin-top: -5%;
-    text-align: left;
 }
 
 .socialMedia {
@@ -54,9 +53,11 @@ h2{
 }*/
 
 .header{
-    font-family: GothamLight;
+    font-family: GothamBold;
+    text-align: justify;
 }
 
 .content{
     font-family: GothamLight;
+    text-align: justify;
 }
