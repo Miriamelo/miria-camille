@@ -107,7 +107,6 @@ class App extends Component {
             return (
                 <div className="namesonline" key={i}>
                     {obj}
-    
                 </div>
             )
         })
