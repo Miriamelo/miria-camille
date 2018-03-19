@@ -2,13 +2,17 @@ import React, { Component } from 'react';
 import '../App.css';
 import mySocket from "socket.io-client";
 import Rooms from "../comp/Rooms";
+import goBack from '../assets/goBack.jpeg';
 
 class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            myImg:require("../assets/1.png"),
-            myImg2:require("../assets/2.png"),
+            myImg:require("../assets/octoSticker.png"),
+            myImg2:require("../assets/fishSticker.png"),
+            myImg3:require("../assets/shellSticker.png"),
+            myImg4:require("../assets/shell2Sticker.png"),
+            myImg5:require("../assets/reefSticker.png"),
             allusers:[],
             myId:null,
             showDisplay:false,
@@ -17,6 +21,11 @@ class App extends Component {
         
         this.handleImage = this.handleImage.bind(this);
         this.handleDisplay = this.handleDisplay.bind(this);
+        this.goHome = this.goHome.bind(this);
+    }
+    
+    goHome=()=>{
+        this.props.changePage(0);
     }
     
     componentDidMount(){
@@ -138,6 +147,9 @@ class App extends Component {
             comp = (
                 <div>
                     <div ref="thedisplay" id="display">
+                        <div>
+                            <img src={goBack} class="goBack" onClick={this.goHome} />
+                        </div>
                         {allimgs}
                         {allstickers}
                     </div>
@@ -145,6 +157,9 @@ class App extends Component {
                         {this.state.myId}
                         <img src={this.state.myImg} height={50} onClick={this.handleImage} />
                         <img src={this.state.myImg2} height={50} onClick={this.handleImage} />
+                        <img src={this.state.myImg3} height={50} onClick={this.handleImage} />
+                        <img src={this.state.myImg4} height={50} onClick={this.handleImage} />
+                        <img src={this.state.myImg5} height={50} onClick={this.handleImage} />
                     </div>
                 </div>
             )

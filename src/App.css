@@ -202,13 +202,13 @@
     position:fixed;
     left:0;
     top:0;
-    background-color:#FADD;
+    background-image: url("assets/bg.jpg");
     cursor:none;
 }
 
 #controls {
-    width:30vw;
-    height:75px;
+    width:50vw;
+    height:95px;
     position:fixed;
     bottom:0;
     right:0;
@@ -245,12 +245,12 @@
   align-items: center;
   align-content: center;
    min-height: 100vh;
-  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%); 
+  background-image: url("assets/bg.jpg"); 
 }
 
 .btn-4{
     font-family: GothamLight;
-    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    background-image: linear-gradient(to right, #ff00d9 0%, #00b893 100%);
 }
 
 .options{
@@ -273,7 +273,7 @@
   align-items: center;
   align-content: center;
    min-height: 100vh;
-  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%); 
+ background-image: url("assets/bg.jpg");
 }
 
 .submit{
@@ -282,6 +282,22 @@
     align-items: center;
     align-content: center;
     margin: 0 auto; 
+}
+
+/*GO BACK BUTTON*/
+.goBack{
+    width: 5%;
+    margin-left: 80%;
+    /*margin-top: 2%;*/
+}
+
+/*ROOMS BG*/
+
+.roomBG{
+    background-image: url("assets/bg.jpg");
+    width:100vw;
+    height:100vh;
+    
 }
 
 
