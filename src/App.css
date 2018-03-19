@@ -293,5 +293,6 @@
 .goBack{
     width: 50%;
     margin-left: 50%;
+    position: absolute;
 }
 

@@ -142,9 +142,9 @@ class App extends Component {
             comp = (
                 <div>
                     <div ref="thedisplay" id="display">
+                        <img src={goBack} class="goBack" />
                         {allimgs}
                         {allstickers}
-                    <img src={goBack} class="goBack" />
                     </div>
                     <div id="controls">
                         {this.state.myId}
