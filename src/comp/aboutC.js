@@ -57,9 +57,14 @@ class AboutC extends Component {
         <h2 className="header">Education</h2>
         
         <p className="content">
-            British Columbia Institute of Technology <br />
+            <p className="contentTitle">British Columbia Institute of Technology</p> 
             Digital Design and Development, Diploma <br />
             September 2016 - Present
+        </p>
+        <p className="content">
+            <p className="contentTitle">Langara College</p>
+            General Arts, Associates Degree <br />
+            September 2013 - April 2016
         </p>
           <br />  <br />
         </div>
