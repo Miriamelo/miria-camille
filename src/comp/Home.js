@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import logo from '../assets/logo2.png';
+import leftmermaid from '../assets/mermaidleft.svg';
+import chaticon from '../assets/chat-icon.svg';
+import tiviaicon from '../assets/trivia-icon.svg';
+import chessicon from '../assets/chess-icon.svg';
+import stickersicon from '../assets/stickers-icon.svg';
 import goCamille from '../assets/camilleLayers.png';
 import goMiria from '../assets/miriaLayers.png';
 import '../App.css';
@@ -50,15 +54,20 @@ class Home extends Component {
   render() {
     return (
     <div className="container">
+    <div class="mermaidleft"><img src={leftmermaid} alt="logo"/></div>
+    <div class="mermaidright"><img src={leftmermaid} alt="logo"/></div>
       <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
-        <br /><br /><br />      
-        <img src={goCamille} className="goCamille" alt="go" onClick={this.changeCamille}/>
-        <img src={goMiria} className="goMiria" alt="go" onClick={this.changeMiria}/>
+        <p class="heading1">MERMAIDS CAVE</p>
+        <p class="heading2">Digital essentials for the modern mermaid</p>
+        <br /><br /><br />     
         <div className="nav">
-        <button id="chat" className="btn btn-2" onClick={this.chatting}>Start Chatting!</button>
-        <button id="stickers" onClick={this.changeStickers}>Stickers!</button>
-        <button id="test" onClick={this.changeTrivia}>Trivia game!</button>
+        <img src={chaticon} className="ico-home" alt="go" onClick={this.chatting}/>
+        <img src={stickersicon} className="ico-home" alt="go" onClick={this.changeStickers}/>
+        <img src={tiviaicon} className="ico-home" alt="go" onClick={this.changeTrivia}/>
+        <img src={chessicon} className="ico-home" alt="go" onClick={this.changeCamille}/>
+        
+        <button id="camille" className="btn btn-2" onClick={this.changeCamille}>About Camille</button>
+        <button id="miria" className="btn btn-2" onClick={this.changeMiria}>About Miria</button>
         </div>
         </div>
       </div>

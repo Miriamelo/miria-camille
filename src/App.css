@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: Gotham;
-    src: url(./assets/gotham/Gotham-Light.otf);
+    font-family: GothamBold;
+    src: url(./assets/gotham/Gotham-Bold.otf);
 }
 
 .App {
@@ -40,7 +40,47 @@
   width: 100vw;
   margin: 0 auto;
   min-height: 100vh;
-  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%);
+  background-image: url("assets/bg.jpg");
+/*  background-image: linear-gradient(to right, #fce4f5 0%, #d3dded 51%, #fce7f6 100%);*/
+}
+
+.mermaidleft{
+    height: 80vh;
+    width: auto;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.mermaidright{
+    height: 80vh;
+    width: auto;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.heading1{
+    font-family: 'GothamBlack';
+    font-size: 72px;
+    background: rgba(255,0,217,1);
+    background: -moz-linear-gradient(left, rgba(255,0,217,1) 0%, rgba(23,167,153,1) 91%, rgba(0,184,147,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,217,1)), color-stop(91%, rgba(23,167,153,1)), color-stop(100%, rgba(0,184,147,1)));
+    background: -webkit-linear-gradient(left, rgba(255,0,217,1) 0%, rgba(23,167,153,1) 91%, rgba(0,184,147,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,0,217,1) 0%, rgba(23,167,153,1) 91%, rgba(0,184,147,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,0,217,1) 0%, rgba(23,167,153,1) 91%, rgba(0,184,147,1) 100%);
+    background: linear-gradient(to right, rgba(255,0,217,1) 0%, rgba(23,167,153,1) 91%, rgba(0,184,147,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff00d9', endColorstr='#00b893', GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading2{
+    font-family: 'GothamBold';
+    font-size: 18px;
+    color: #06B393;
 }
 
 .btn {
@@ -64,13 +104,18 @@
 }
 
 .btn-2 {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  background-image: linear-gradient(to right, #ff00d9 0%, #00b893 100%);
 }
 
 .btn-3 {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  background-image: linear-gradient(to right, #00b893 0%, #ff00d9 100%);
   border-radius: 50px;
   padding: 10px;
+}
+
+.ico-home{
+    height: 250px;
+    margin-right: 2%;
 }
 
 .chatbox {
