@@ -21,7 +21,6 @@ class AboutC extends Component {
     return (
       <div className="App">
         <img src={Header} className="camProfile" />
-        
         <img src={Arrow} className="arrow" onClick={this.goHome} />
           
       </div>
