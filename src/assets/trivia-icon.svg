@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="187px" height="187px" viewBox="0 0 187 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="187px" height="224px" viewBox="0 0 187 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
-    <title>trivia</title>
+    <title>trivia-icon</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-1">
@@ -11,7 +11,12 @@
     </defs>
     <g id="White-Walls" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD-Copy-2" transform="translate(-740.000000, -449.000000)">
-            <g id="trivia" transform="translate(742.000000, 451.000000)">
+            <g id="trivia-icon" transform="translate(742.000000, 451.000000)">
+                <g id="Logo-Copy-3" transform="translate(64.000000, 199.000000)" fill="#06B393" font-family="Gotham-Bold, Gotham" font-size="18" font-weight="bold" letter-spacing="-0.624929667" line-spacing="30">
+                    <text id="TRIVIA">
+                        <tspan x="0" y="17">TRIVIA</tspan>
+                    </text>
+                </g>
                 <circle id="Oval-5-Copy-2" stroke="url(#linearGradient-1)" stroke-width="3" cx="91.5" cy="91.5" r="91.5"></circle>
                 <g id="captain" transform="translate(52.000000, 54.000000)" fill="#06B393" fill-rule="nonzero">
                     <path d="M31.3333333,35 C30.5973671,35 30,35.5973671 30,36.3333333 C30,37.0692996 30.5973671,37.6666667 31.3333333,37.6666667 L32.6666667,37.6666667 C32.6666667,38.4026329 33.2640338,39 34,39 C34.7359662,39 35.3333333,38.4026329 35.3333333,37.6666667 L36.6666667,37.6666667 C37.4026329,37.6666667 38,37.0692996 38,36.3333333 C38,35.5973671 37.4026329,35 36.6666667,35 L31.3333333,35 Z" id="Shape"></path>

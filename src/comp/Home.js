@@ -57,18 +57,19 @@ class Home extends Component {
     <div class="mermaidleft"><img src={leftmermaid} alt="logo"/></div>
     <div class="mermaidright"><img src={leftmermaid} alt="logo"/></div>
       <div className="App">
+        <div class="homeheader">
         <p class="heading1">MERMAIDS CAVE</p>
         <p class="heading2">Digital essentials for the modern mermaid</p>
+        </div>
         <br /><br /><br />     
-        <div className="nav">
+        <div class="navitems">
         <img src={chaticon} className="ico-home" alt="go" onClick={this.chatting}/>
         <img src={stickersicon} className="ico-home" alt="go" onClick={this.changeStickers}/>
         <img src={tiviaicon} className="ico-home" alt="go" onClick={this.changeTrivia}/>
         <img src={chessicon} className="ico-home" alt="go" onClick={this.changeCamille}/>
-        
-        <button id="camille" className="btn btn-2" onClick={this.changeCamille}>About Camille</button>
-        <button id="miria" className="btn btn-2" onClick={this.changeMiria}>About Miria</button>
         </div>
+        <div><button id="camille" className="btn btn-2" onClick={this.changeCamille}>About Camille</button>
+        <button id="miria" className="btn btn-2" onClick={this.changeMiria}>About Miria</button></div>
         </div>
       </div>
     );

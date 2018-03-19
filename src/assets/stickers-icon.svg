@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="187px" height="187px" viewBox="0 0 187 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="187px" height="224px" viewBox="0 0 187 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
-    <title>stickers</title>
+    <title>stickers-icon</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-1">
@@ -11,7 +11,12 @@
     </defs>
     <g id="White-Walls" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD-Copy-2" transform="translate(-534.000000, -449.000000)">
-            <g id="stickers" transform="translate(536.000000, 451.000000)">
+            <g id="stickers-icon" transform="translate(536.000000, 451.000000)">
+                <g id="Logo-Copy-2" transform="translate(50.000000, 199.000000)" fill="#06B393" font-family="Gotham-Bold, Gotham" font-size="18" font-weight="bold" letter-spacing="-0.624929667" line-spacing="30">
+                    <text id="STICKERS">
+                        <tspan x="0" y="17">STICKERS</tspan>
+                    </text>
+                </g>
                 <circle id="Oval-5-Copy" stroke="url(#linearGradient-1)" stroke-width="3" cx="91.5" cy="91.5" r="91.5"></circle>
                 <g id="whale" transform="translate(52.000000, 57.000000)" fill="#06B393" fill-rule="nonzero">
                     <path d="M62.877193,23.7499512 C64.4183392,23.7499512 65.6717895,22.6287598 65.6717895,21.2499023 C65.6717895,19.8711914 64.4185029,18.7498535 62.877193,18.7498535 C61.3360468,18.7498535 60.0825965,19.8710449 60.0825965,21.2499023 C60.0825965,22.6287598 61.3360468,23.7499512 62.877193,23.7499512 Z" id="Shape"></path>
