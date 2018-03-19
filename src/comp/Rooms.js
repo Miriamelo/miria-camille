@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import'../App.css';
 
 class Rooms extends Component {
     constructor(props){
@@ -8,7 +9,7 @@ class Rooms extends Component {
     render() {
         
         return (
-            <div>
+            <div class="roomBG">
                 <button onClick={this.props.handleDisplay.bind(this, "room1")}>Room1</button>
                 <button onClick={this.props.handleDisplay.bind(this, "room2")}>Room2</button>
                 <button onClick={this.props.handleDisplay.bind(this, "room3")}>Room3</button>

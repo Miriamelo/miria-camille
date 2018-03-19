@@ -139,7 +139,7 @@ class App extends Component {
         
         if(this.state.showDisplay === false){
             //Rooms
-            comp = <Rooms class="roomBG" 
+            comp = <Rooms 
                 handleDisplay={this.handleDisplay}
             />;
         } else {
