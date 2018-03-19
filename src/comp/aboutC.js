@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../Camille.css';
-import socialMedia from '../assets/socialMedia.png';
-import Profile from '../assets/camilleProfile.png';
+import Header from '../assets/camilleheader.svg';
 import Arrow from "../assets/arrow.png";
 
 
@@ -21,7 +20,6 @@ class AboutC extends Component {
   render() {
     return (
       <div className="App">
-        <img src={socialMedia} className="socialMedia" />
         <img src={Profile} className="camProfile" />
         
         <img src={Arrow} className="arrow" onClick={this.goHome} />
