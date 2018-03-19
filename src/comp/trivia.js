@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import mySocket from 'socket.io-client';
 import '../App.css';
 import trivia from '../assets/trivia.svg';
+import goBack from '../assets/goBack.jpeg';
 
 
 class Trivia extends Component {
@@ -13,6 +14,12 @@ class Trivia extends Component {
             host:null,
             qobj:{q:null, o1:null, o2:null}
         }
+        
+        this.goHome = this.goHome.bind(this);
+    }
+    
+    goHome=()=>{
+        this.props.changePage(0);
     }
     
     componentDidMount(){
@@ -70,6 +77,7 @@ class Trivia extends Component {
             comp = (
                 <div class="container">
                     <div>
+                    <img src={goBack} class="goBack" onClick={this.goHome} />
                     <img class="triviaHeading" src={trivia} />
                     <br /><br /><br /> 
                     <button class="btn btn-2" onClick={this.handleRoom.bind(this, "room1")}>Room 1</button>
