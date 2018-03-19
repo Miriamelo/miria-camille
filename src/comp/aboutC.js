@@ -22,7 +22,7 @@ class AboutC extends Component {
       <div className="App">
         <img src={Header} className="camProfile" />
         <img src={Arrow} className="arrow" onClick={this.goHome} />
-        
+        <div className="userInfo">
         <h2 className="header">Overview</h2>
         
         <p className="content">
@@ -37,7 +37,7 @@ class AboutC extends Component {
         <h2 className="header">Experience</h2>
         
         <p className="content">
-            <p className="contentTitle">Enactus</p> <br />
+            <p className="contentTitle">Enactus</p> 
             UX/UI and Web Designer <br />
             December 2017 - Present <br />
             Created and designed both website and the mobile app to help increase the productivity of Enactus team members <br />
@@ -45,7 +45,7 @@ class AboutC extends Component {
             Created wireframes, mockups, and prototypes which were used to conduct usability testing to improve the website and the app 
         </p>
         <p className="content">
-            <b>BASI Tropical Towels</b>
+            <p className="contentTitle">BASI Tropical Towels</p>
             Web and Graphic Designer <br />
             January 2017 - Present <br />
             Developed a website using a Wordpress theme and customized the theme using HTML, CSS, and basic PHP, which increased sales and resulted in a more user friendly website <br />
@@ -58,10 +58,11 @@ class AboutC extends Component {
         
         <p className="content">
             British Columbia Institute of Technology <br />
-            Digital Design and Development <br />
+            Digital Design and Development, Diploma <br />
             September 2016 - Present
         </p>
-          
+          <br />  <br />
+        </div>
       </div>
     );
   }
