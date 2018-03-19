@@ -92,13 +92,6 @@ class App extends Component {
             })
             
             comp = (
-                
-                <div className="peopleonline">
-                <h2>People who are online</h2>
-                <hr/>
-                    {allnames}
-                </div>
-                
                 <div className="chatbox" id="chatBox">
                     <div id="chatDisplay">{allmsgs}</div>
                     <div id="sendmessageblock">
@@ -130,6 +123,12 @@ class App extends Component {
             
             <div className="chat">
             {comp}
+            </div>
+            
+            <div className="peopleonline">
+                <h2>People who are online</h2>
+            <hr/>
+                {allnames}
             </div>
             
         </div>
