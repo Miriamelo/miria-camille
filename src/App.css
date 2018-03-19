@@ -255,7 +255,7 @@
 
 .btn-4{
     font-family: GothamLight;
-    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    background-image: url("assets/bg.jpg");
 }
 
 .options{
