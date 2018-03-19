@@ -146,8 +146,10 @@ class App extends Component {
             //Display
             comp = (
                 <div>
-                    <img src={goBack} class="goBack" onClick={this.goHome} />
                     <div ref="thedisplay" id="display">
+                        <div>
+                            <img src={goBack} class="goBack" onClick={this.goHome} />
+                        </div>
                         {allimgs}
                         {allstickers}
                     </div>

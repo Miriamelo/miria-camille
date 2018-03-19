@@ -300,6 +300,9 @@
 
 .roomBG{
     background-image: url("assets/bg.jpg");
+    width:100vw;
+    height:100vh;
+    
 }
 
 
