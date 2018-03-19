@@ -54,21 +54,21 @@ class Home extends Component {
   render() {
     return (
     <div className="container">
-    <div class="mermaidleft"><img src={leftmermaid} alt="logo"/></div>
-    <div class="mermaidright"><img src={leftmermaid} alt="logo"/></div>
+    <div className="mermaidleft"><img src={leftmermaid} alt="logo"/></div>
+    <div className="mermaidright"><img src={leftmermaid} alt="logo"/></div>
       <div className="App">
-        <div class="homeheader">
-        <p class="heading1">MERMAIDS CAVE</p>
-        <p class="heading2">Digital essentials for the modern mermaid</p>
+        <div className="homeheader">
+        <p className="heading1">MERMAIDS CAVE</p>
+        <p className="heading2">Digital essentials for the modern mermaid</p>
         </div>
         <br /><br /><br />     
-        <div class="navitems">
+        <div className="navitems">
         <img src={chaticon} className="ico-home" alt="go" onClick={this.chatting}/>
         <img src={stickersicon} className="ico-home" alt="go" onClick={this.changeStickers}/>
         <img src={tiviaicon} className="ico-home" alt="go" onClick={this.changeTrivia}/>
         <img src={chessicon} className="ico-home" alt="go" onClick={this.changeCamille}/>
         </div>
-        <div><button id="camille" className="btn btn-2" onClick={this.changeCamille}>About Camille</button>
+        <div className="bottom-items"><button id="camille" className="btn btn-2" onClick={this.changeCamille}>About Camille</button>
         <button id="miria" className="btn btn-2" onClick={this.changeMiria}>About Miria</button></div>
         </div>
       </div>
