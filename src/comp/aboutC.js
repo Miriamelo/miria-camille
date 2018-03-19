@@ -23,7 +23,9 @@ class AboutC extends Component {
         <img src={Header} className="camProfile" />
         <img src={Arrow} className="arrow" onClick={this.goHome} />
         <div className="userInfo">
+        
         <h2 className="header">Overview</h2>
+        <br />
         
         <p className="content">
         I am an aspiring UX/UI and interaction designer. I am currently enrolled in BCIT’s Digital Design and Development program, where I have developed a strong foundation in creating interactive and dynamic applications and websites. <br /> <br />
@@ -35,6 +37,7 @@ class AboutC extends Component {
         <br />
         
         <h2 className="header">Experience</h2>
+        <br />
         
         <p className="content">
             <p className="contentTitle">Enactus</p> 
@@ -55,6 +58,7 @@ class AboutC extends Component {
         <br />
         
         <h2 className="header">Education</h2>
+        <br />
         
         <p className="content">
             <p className="contentTitle">British Columbia Institute of Technology</p> 
