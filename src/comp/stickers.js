@@ -148,6 +148,9 @@ class App extends Component {
                         {this.state.myId}
                         <img src={this.state.myImg} height={50} onClick={this.handleImage} />
                         <img src={this.state.myImg2} height={50} onClick={this.handleImage} />
+                        <img src={this.state.myImg3} height={50} onClick={this.handleImage} />
+                        <img src={this.state.myImg4} height={50} onClick={this.handleImage} />
+                        <img src={this.state.myImg5} height={50} onClick={this.handleImage} />
                     </div>
                 </div>
             )
