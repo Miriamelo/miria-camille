@@ -20,7 +20,7 @@ class AboutC extends Component {
   render() {
     return (
       <div className="App">
-        <img src={Profile} className="camProfile" />
+        <img src={Header} className="camProfile" />
         
         <img src={Arrow} className="arrow" onClick={this.goHome} />
           
