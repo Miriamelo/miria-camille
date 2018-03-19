@@ -56,10 +56,16 @@ h2{
     color: #00B791;
     text-align: justify;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .content{
     font-family: GothamLight;
     text-align: justify;
     margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contentTitle{
+    font-family: GothamBold;
 }

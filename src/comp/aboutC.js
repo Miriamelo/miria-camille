@@ -37,7 +37,7 @@ class AboutC extends Component {
         <h2 className="header">Experience</h2>
         
         <p className="content">
-            <b>Enactus</b>
+            <p className="contentTitle">Enactus</p> <br />
             UX/UI and Web Designer <br />
             December 2017 - Present <br />
             Created and designed both website and the mobile app to help increase the productivity of Enactus team members <br />
