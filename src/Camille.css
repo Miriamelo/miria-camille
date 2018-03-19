@@ -54,12 +54,12 @@ h2{
 .header{
     font-family: GothamBold;
     color: #00B791;
-    text-align: left;
+    text-align: justify;
     margin-left: 10%;
 }
 
 .content{
     font-family: GothamLight;
-    text-align: left;
+    text-align: justify;
     margin-left: 10%;
 }
