@@ -296,3 +296,10 @@
     /*margin-top: 2%;*/
 }
 
+/*ROOMS BG*/
+
+.roomBG{
+    background-image: url("assets/bg.jpg");
+}
+
+
