@@ -101,8 +101,8 @@ class Trivia extends Component {
             if(this.state.host === true){
                 comp=(
                     <div>
-                         <img src={goBack} class="goBack" onClick={this.goHome} />
                         <div class="hostQ">
+                        <img src={goBack} class="goBack" onClick={this.goHome} />
                         <img class="triviaHeading2" src={trivia} />
                         <br />
                         <div class="container-2">
@@ -122,8 +122,8 @@ class Trivia extends Component {
             } else if (this.state.host === false){
                 comp = (
                     <div>
-                         <img src={goBack} class="goBack" onClick={this.goHome} />
                         <div class="playerQ">
+                        <img src={goBack} class="goBack" onClick={this.goHome} />
                         <img class="triviaHeading2" src={trivia} />
                         <br />
                         <div class="container-2">
