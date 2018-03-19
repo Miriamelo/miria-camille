@@ -15,7 +15,7 @@
 
 
 .App{
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .socialMedia {
@@ -30,7 +30,7 @@
 .camProfile {
     height: 100%;
     width: 100%;
-    margin-top: -5%;
+    margin-top: -15%;
 }
 
 .arrow {
@@ -47,7 +47,10 @@
     margin-top: 22%;
 }
 
-@font-face {
-    font-family: Gotham;
-    src: url(./assets/gotham/Gotham-Light.otf);
+.header{
+    font-family: GothamBold;
+}
+
+.content{
+    font-family: GothamLight;
 }
