@@ -32,15 +32,16 @@ class AboutC extends Component {
 
         I have taken on numerous side projects such as designing and creating websites and posters for startups based in the Philippines. These projects have helped my with my skills in design, HTML, CSS, and WordPress.
         </p> 
+        <br />
         
         <h2 className="header">Experience</h2>
         
         <p className="content">
-        UX/UI and Web Designer <br />
-        Enactus |   December 2017 - Present <br />
-        Created and designed both website and the mobile app to help increase the productivity of Enactus team members <br />
+            UX/UI and Web Designer <br />
+            Enactus |   December 2017 - Present <br />
+            Created and designed both website and the mobile app to help increase the productivity of Enactus team members <br />
         
-        Created wireframes, mockups, and prototypes which were used to conduct usability testing to improve the website and the app 
+            Created wireframes, mockups, and prototypes which were used to conduct usability testing to improve the website and the app 
         </p>
         <p className="content">
             Web and Graphic Designer <br />
@@ -49,6 +50,7 @@ class AboutC extends Component {
         
             Created posters regarding special sales and events and updated social media, which led to an increase in social media interaction and following 
         </p>
+        <br />
         
         <h2 className="header">Education</h2>
         

@@ -55,9 +55,11 @@ h2{
     font-family: GothamBold;
     color: #00B791;
     text-align: left;
+    margin-left: 10%;
 }
 
 .content{
     font-family: GothamLight;
     text-align: left;
+    margin-left: 10%;
 }
