@@ -122,7 +122,6 @@ class Trivia extends Component {
                 comp = (
                     <div>
                         <div class="playerQ">
-                        <img src={goBack} class="goBack" onClick={this.goHome} />
                         <img class="triviaHeading2" src={trivia} />
                         <br />
                         <div class="container-2">
