@@ -7,7 +7,7 @@ class App extends Component {
     
   
     componentDidMount(){
-        //this.socket = mySocket("http://localhost:10001");
+        this.socket = mySocket("https://chesssockets2.herokuapp.com/");
     }
     
     goHome=()=>{
