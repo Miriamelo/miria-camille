@@ -66,7 +66,7 @@ class Home extends Component {
         <img src={chaticon} className="ico-home" alt="go" onClick={this.chatting}/>
         <img src={stickersicon} className="ico-home" alt="go" onClick={this.changeStickers}/>
         <img src={tiviaicon} className="ico-home" alt="go" onClick={this.changeTrivia}/>
-        <img src={chessicon} className="ico-home" alt="go" onClick={this.changeCamille}/>
+        <img src={chessicon} className="ico-home" alt="go" onClick={this.changeChess}/>
         </div>
         <div className="bottom-items"><button id="camille" className="btn btn-2" onClick={this.changeCamille}>About Camille</button>
         <button id="miria" className="btn btn-2" onClick={this.changeMiria}>About Miria</button></div>
