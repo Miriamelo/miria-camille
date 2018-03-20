@@ -1,15 +1,21 @@
-.App{
-    text-align: center;
+@font-face {
+    font-family: GothamBlack;
+    src: url(./assets/gotham/Gotham-Black.otf);
 }
 
-.socialMedia {
-   height: 40px;
-    position: absolute;
-    margin-left: 62%;
-    margin-top: 23%;
-    
-    
+@font-face {
+    font-family: GothamLight;
+    src: url(./assets/gotham/Gotham-Light.otf);
 }
+
+@font-face {
+    font-family: GothamBold;
+    src: url(./assets/gotham/Gotham-Bold.otf);
+}
+
+.App{
+}
+
 
 .miriaProfile {
     height: 100%;
@@ -31,7 +37,25 @@
     margin-top: 22%;
 }
 
-@font-face {
-    font-family: Gotham;
-    src: url(./assets/gotham/Gotham-Light.otf);
+.header{
+    font-family: GothamBold;
+    color: #00B791;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content{
+    font-family: GothamLight;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contentTitle{
+    font-family: GothamBold;
+}
+
+.userInfo{
+    margin-top: -5%;
 }
