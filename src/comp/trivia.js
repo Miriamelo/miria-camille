@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import mySocket from 'socket.io-client';
 import '../App.css';
 import trivia from '../assets/trivia.svg';
-import goBack from '../assets/goBack.jpeg';
+import closeicon from '../assets/go-back.svg';
 
 
 class Trivia extends Component {
