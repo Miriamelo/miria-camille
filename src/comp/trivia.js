@@ -76,7 +76,6 @@ class Trivia extends Component {
         if(this.state.screen === 0){
             comp = (
                 <div class="container">
-                    <img src={goBack} class="goBack" onClick={this.goHome} />
                     <div>
                     <img class="triviaHeading" src={trivia} />
                     <br /><br /><br /> 
@@ -88,7 +87,7 @@ class Trivia extends Component {
         } else if(this.state.screen === 1){
             comp = (
                 <div class="container">
-                     <img src={goBack} class="goBack" onClick={this.goHome} />
+                     
                     <div>
                     <img class="triviaHeading" src={trivia} />
                     <br />
@@ -139,7 +138,8 @@ class Trivia extends Component {
         }
         
         return(
-            <div>
+            <div className="container">
+                <img src={closeicon} className="close" alt="go back" onClick={this.goHome}/>
                 {comp}
             </div>
         )
